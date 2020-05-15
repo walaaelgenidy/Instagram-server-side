@@ -196,6 +196,9 @@ resmoke.ini
 
 # dependencies
 /node_modules
+/.pnp
+.pnp.js
+
 
 # testing
 /coverage
