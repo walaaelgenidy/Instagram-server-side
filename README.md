@@ -1,6 +1,5 @@
-# guestBook
+# Instagram server side
 using 
-react 
-mongo
-nodejs
-materialize for front end
+ - mongo
+ - nodejs
+
