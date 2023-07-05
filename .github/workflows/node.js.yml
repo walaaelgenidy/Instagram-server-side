@@ -34,5 +34,5 @@ jobs:
       needs: 
        build 
       steps:
-       - run: npm deploy
+       - run: npm help
       
