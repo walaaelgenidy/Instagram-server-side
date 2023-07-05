@@ -32,5 +32,8 @@ jobs:
   help:
       runs-on: ubuntu-latest
       steps:
-       - run: npm help
+      - name: Use OS ${{ matrix.os }}
+        with:
+         node-version: ${{ matrix.node-version }}
+      - run: npm help
       
